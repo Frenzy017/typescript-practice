@@ -60,6 +60,6 @@ isDelivered(OrderStatus.RETURNED)
     DOWN = "down",
     LEFT = "left",
     RIGHT = "right",
-    ERROR = 234;
+    ERROR = 234,
 }
 
