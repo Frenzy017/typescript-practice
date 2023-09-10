@@ -34,3 +34,27 @@ function calculateTax(price: number | string, tax: number) {
     }
 }
 
+// Union Types with Arrays example
+// Make sure to use the parenthesis followed by array brackets
+
+const stuff: (number | string)[] = [2, "hello"]
+
+// Literal Types
+//  They're also types and values at the same time
+// Helpful when they're combined together in unions
+
+const giveAnswer = (answer: "yes" | "no" | "maybe") => {
+    return `The answer is ${answer}`;
+}
+giveAnswer("no")
+giveAnswer("not sure")
+
+type DayOfWeek =
+    | "Monday"
+    | "Tuesday"
+    | "Wednesday"
+    | "Thursday"
+    | "Friday"
+    | "Saturday"
+
+let today: DayOfWeek = 'weds'
