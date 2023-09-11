@@ -1,2 +1,2 @@
 # typescript-practice
-Practising TypeScript 
+Practising TypeScript with simple exercises 
